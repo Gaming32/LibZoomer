@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "libzoomer-test",
+	"version": "${version}",
+	"name": "LibZoomer Test Mod",
+	"description": "LibZoomer's testmod. Contains Michael and friends!",
+	"contributors": [
+		"Ennui Langeweile",
+		"Gaming32"
+	],
+	"license": "MIT",
+	"entrypoints": {
+		"main": [
+			"io.github.ennuil.libzoomer_test.LibZoomerTestMod"
+		],
+		"client": [
+			"io.github.ennuil.libzoomer_test.LibZoomerTestMod"
+		]
+	}
+}
