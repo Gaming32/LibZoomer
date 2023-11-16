@@ -1,17 +1,15 @@
 package io.github.ennuil.libzoomer.mixin;
 
+import io.github.ennuil.libzoomer.api.ZoomInstance;
+import io.github.ennuil.libzoomer.api.ZoomOverlay;
+import io.github.ennuil.libzoomer.api.ZoomRegistry;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.hud.in_game.InGameHud;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-
-import io.github.ennuil.libzoomer.api.ZoomInstance;
-import io.github.ennuil.libzoomer.api.ZoomOverlay;
-import io.github.ennuil.libzoomer.api.ZoomRegistry;
-
-import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.gui.hud.InGameHud;
 
 @Mixin(InGameHud.class)
 public class InGameHudMixin {
